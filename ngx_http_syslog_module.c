@@ -67,7 +67,6 @@ static char *ngx_http_syslog_set_log(ngx_conf_t *cf, ngx_command_t *cmd, void *c
 static char *ngx_http_syslog_set_priority(ngx_conf_t *cf, ngx_command_t *cmd, void *conf);
 
 static ngx_int_t ngx_http_syslog_init(ngx_conf_t *cf);
-static char* ngx_syslog_init_conf(ngx_cycle_t *cycle, void *conf);
 
 static ngx_int_t ngx_http_syslog_init_process(ngx_cycle_t *cycle);
 static void ngx_http_syslog_exit_process(ngx_cycle_t *cycle);
